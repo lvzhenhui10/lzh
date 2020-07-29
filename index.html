@@ -35,7 +35,8 @@
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href=""><span class="iconfont icon-tuichu"></span>退出</a>
+                    <!-- 点击退出按钮弹出提示框返回登录页面是一定要把a标签的默认跳转事件禁止掉 -->
+                    <a href="javascript:;" id="btnLogout"><span class="iconfont icon-tuichu"></span>退出</a>
                 </li>
             </ul>
         </div>
